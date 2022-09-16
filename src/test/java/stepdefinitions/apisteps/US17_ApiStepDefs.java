@@ -87,7 +87,7 @@ public class US17_ApiStepDefs {
     }
 
     @Then("admin validates the test item")
-    public void admin_validates_the_test_item() throws JsonProcessingException {
+    public void admin_validates_the_test_item() throws Exception {
 
         response.then().assertThat().statusCode(200);
 
